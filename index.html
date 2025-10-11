@@ -42,9 +42,17 @@
         }
         
         .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
             font-size: 1.8rem;
             font-weight: bold;
             color: #667eea;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
         }
         
         .nav-links {
@@ -188,7 +196,7 @@
 <body>
     <header>
         <nav class="container">
-            <div class="logo">🧠 TechFlow Labs</div>
+            <div class="logo"><img src="logo.png" alt="TechFlow Labs Logo"> TechFlow Labs</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
@@ -200,7 +208,7 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>🧠 TechFlow Labs LLC</h1>
+            <h1>TechFlow Labs LLC</h1>
             <p>AI-Powered E-commerce Solutions & Voice Technology Pioneers</p>
             <a href="#services" class="btn">Discover Our Services</a>
         </div>
