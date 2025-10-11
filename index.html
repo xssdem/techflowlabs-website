@@ -171,6 +171,29 @@
             text-align: center;
         }
         
+        .leadership-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .leadership-photo {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .leadership-info {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 400px;
+        }
+
         footer {
             background: #333;
             color: white;
@@ -250,11 +273,15 @@
             
             <div style="margin-top: 3rem; text-align: center;">
                 <h3>Leadership</h3>
-                <div style="background: white; padding: 2rem; border-radius: 10px; max-width: 400px; margin: 2rem auto;">
-                    <h4>Dmitrii Drozdovskii</h4>
-                    <p style="color: #1e40af; font-weight: bold;">CEO & Founder</p>
-                    <p>Email: xssdem@icloud.com</p>
-                    <p>Leading strategic expansion of AI voice technology from European market to US e-commerce platforms</p>
+                <div class="leadership-container">
+                    <img src="paulmatis-303-fotor-20251011235752.png" alt="Dmitrii Drozdovskii" class="leadership-photo">
+                    <div class="leadership-info">
+                        <h4>Dmitrii Drozdovskii</h4>
+                        <p style="color: #1e40af; font-weight: bold;">CEO & Founder</p>
+                        <p>Email: xssdem@icloud.com</p>
+                        <p>Leading strategic expansion of AI voice technology from European market to US e-commerce platforms</p>
+                    </div>
+                    <img src="paulmatis-307-fotor-20251011235652.png" alt="TechFlow Labs Presentation" class="leadership-photo">
                 </div>
             </div>
         </div>
