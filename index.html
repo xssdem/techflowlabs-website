@@ -45,15 +45,15 @@
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             font-weight: bold;
             color: #0066CC;
-            cursor: pointer;
             text-decoration: none;
+            cursor: pointer;
         }
 
         .logo img {
-            height: 40px;
+            height: 50px;
             width: auto;
         }
         
@@ -212,8 +212,12 @@
         }
         
         @media (max-width: 768px) {
+            body {
+                font-size: 0.9rem;
+            }
+
             .hero-content h1 {
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
 
             .nav-links {
@@ -221,19 +225,42 @@
             }
 
             .hero-content p {
+                font-size: 0.95rem;
+            }
+
+            .section h2 {
+                font-size: 1.8rem;
+            }
+
+            .service-card h3 {
                 font-size: 1.1rem;
+            }
+
+            .service-card p {
+                font-size: 0.85rem;
             }
 
             .leadership-info {
                 padding: 2.5rem;
-                font-size: 0.95rem;
             }
 
             .leadership-info h4 {
-                font-size: 1.3rem;
+                font-size: 1.1rem;
             }
 
             .leadership-info p {
+                font-size: 0.85rem;
+            }
+
+            .contact-card h3 {
+                font-size: 1.1rem;
+            }
+
+            .contact-card p {
+                font-size: 0.85rem;
+            }
+
+            .about-content {
                 font-size: 0.9rem;
             }
         }
@@ -242,7 +269,7 @@
 <body>
     <header>
         <nav class="container">
-            <a href="#home" class="logo"><img src="logo.png" alt="TechFlow Labs Logo"> TechFlow Labs</a>
+            <div class="logo"><img src="logo.png" alt="TechFlow Labs Logo"> TechFlow Labs</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
